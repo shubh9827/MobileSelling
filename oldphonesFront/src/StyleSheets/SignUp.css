@@ -1,0 +1,141 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+@media (max-width: 600px) {
+    .signup-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #select,
+    #date {
+        width: 100%
+    }    
+    .dropdowns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .head {
+        font-size: 40px; 
+    }
+}
+
+#gender,
+#dob {
+    width: 100%;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.564);
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 14px;
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+  
+#gender:hover,
+#dob:hover {
+    background-color: #f0f0f0; 
+}
+  
+.signup, .login {
+    background-image: url("../../public/Mobile-Phone-Rights-Which_-Consumer-Rights-Which_.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.head {
+    font-family: Bradley Hand, cursive;
+    font-weight: bold; 
+    text-align: center;
+    font-size: 43px; 
+    color: #f1ff26; 
+    text-transform: uppercase; 
+    padding-bottom: 5px; 
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(30, 6, 6, 0.5); 
+} 
+
+.signup-form {
+    width: 500px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.buttonAuth {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1ff26;
+    color: #080808;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.buttonAuth:hover {
+    background-color: #000000;
+    color: yellow;
+}
+
+.divider {
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #b1afaf;
+    margin: 10px 0;
+}
+
+
+.signup-form p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-form p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.signup-form p a:hover {
+    text-decoration: underline; 
+}

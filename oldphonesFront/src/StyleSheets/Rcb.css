@@ -1,0 +1,126 @@
+.rcb {
+  background-color : rgb(255, 255, 255);
+  background-size : cover;
+  min-height : 100vh;
+}
+
+.btn-hover-yellow,.btn-hover-yellow:hover {
+  color : blue
+}
+
+.btn-hover-yellow {
+  border-color : blue;
+}
+.productBox {
+  height : auto
+}
+
+.btn-hover-yellow:hover {
+  background-color :blue;
+  color : black; 
+}
+@media (min-width: 1200px) {
+  #filter {
+    position : fixed;
+    height : 545px; 
+    overflow-y : scroll;
+    top : 162px;
+    left : 20px;
+    width : 320px; 
+  }
+  #spinner {
+    margin-left : 200px;
+  }
+  .productBox {
+    width : 100%;
+    height : 275px;
+  }
+  .productBox:hover {
+    border : 2px solid black;
+    
+  }
+  #headingProduct{
+    margin-top : 100px;
+  }
+
+  #mainContainer {
+    margin-left : 100px;
+    width : 100%;
+    height : calc(100vh - 150px);
+    overflow-y : auto
+  }
+  #mainRow {
+    margin-top : 140px;
+    position : fixed;
+    margin-right : 100px 
+  }
+
+  #productRow {
+    padding-left : 270px; 
+  }
+}
+
+@media((min-width : 764px) and (max-width : 1200px)) {
+  #filter {
+    position : fixed; 
+    width : auto;
+    margin-top : 20px;
+    height : 500px;
+    overflow-y : scroll;
+  }
+  .productBox:hover {
+    border : 2px solid black;
+    
+  }
+  #mainRow {
+    margin-top : 180px;
+    position : fixed;
+  }
+  #headingProduct{
+    margin-top : 150px;
+  }   
+  .productBox {
+    width : 100%;
+  }
+  #mainContainer {
+    margin-left : 200px;
+    margin-top : 20px ;
+    
+  }
+  #productRow {
+    padding-left : 0;
+    margin-left : 20px
+  }
+}
+@media (max-width : 765px) {
+  #filter {
+    position : fixed;
+    z-index : 1;
+    width : 100%;
+    height : 500px;
+    overflow-y : scroll;
+    opacity : 0.90;
+    margin-top : -50px;
+  }
+  .productBox:hover {
+    border : 2px solid black;
+    
+  }
+  .prouctBox {
+    width : 100%
+  }
+  #filterCollapse {
+    margin-right : 25px; 
+  }
+  #mainRow {
+    margin-top : 140px;
+    position : fixed;
+  }
+  #headingProduct{
+    margin-top : 120px
+  }
+  #productRow {
+    margin-top : 10px; 
+  }
+}
+
